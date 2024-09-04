@@ -1,0 +1,167 @@
+header {
+  display: flex; /* Enables Flexbox */
+  justify-content: space-between; /* Distributes space between items */
+  align-items: center; /* Aligns items vertically in the center */
+  padding: 30px 30px; /* Adds padding around the header */
+  background-color: #f8f8f8; /* Background color for header */
+}
+
+h1 {
+  margin: 0; /* Removes default margin */
+  font-size: 32px; /* Adjusts the font size */
+}
+
+nav ul {
+  display: flex; /* Aligns list items horizontally */
+  list-style: none; /* Removes bullet points */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+}
+
+nav ul li {
+  margin-left: 20px; /* Adds space between the navigation items */
+}
+
+nav ul li a {
+  text-decoration: none; /* Removes underline from links */
+  color: #333; /* Sets link color */
+  font-size: 16px; /* Adjusts font size */
+}
+
+/*Header code ends here*/
+
+/* About Us Section Styles */
+#about {
+  padding: 100px 20px; /* Adds space around the section */
+  background-image: url("images/background.jpg"); /* Add your image URL here */
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-position: center; /* Centers the image */
+  background-attachment: fixed; /* Fixes the background image while scrolling */
+  text-align: center; /* Centers the text */
+  color: #0a0606d3; /* Sets the text color to white for contrast */
+  border-radius: 10px;
+}
+
+.about-container {
+  max-width: 800px; /* Limits the width of the content */
+  margin: 0 auto; /* Centers the content */
+  padding: 20px; /* Adds padding around the content */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #ffffffcc; /* Semi-transparent background for the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+h2 {
+  font-size: 28px; /* Heading font size */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+p {
+  font-size: 16px; /* Paragraph font size */
+  line-height: 1.6; /* Line spacing for readability */
+}
+
+/*About us  code ends here*/
+
+/*Products code*/
+.product-list-container-painkillers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #ffffffcc;
+}
+
+.product-list-container-gastric {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #ffffffcc;
+}
+
+.product-list-container-antibiotics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #ffffffcc;
+}
+.product-card {
+  width: 30%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: aqua;
+  box-sizing: border-box;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.product-title {
+  font-size: 20px;
+  margin: 0;
+}
+
+.product-description {
+  margin: 10px 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.product-price {
+  font-weight: bold;
+  margin: 0;
+}
+/*Products code end us*/
+
+/* footer code*/
+/* Footer Styles */
+footer {
+  background-color: #858080; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 40px 20px; /* Padding around the footer */
+  text-align: center; /* Centered text */
+  border-radius: 10px;
+}
+
+.footer-container {
+  display: flex; /* Flexbox for layout */
+  flex-wrap: wrap; /* Wraps content on smaller screens */
+  justify-content: space-around; /* Space between items */
+  max-width: 1000px; /* Maximum width of footer content */
+  margin: 0 auto; /* Centers footer content */
+}
+
+.footer-contact,
+.footer-social {
+  margin-bottom: 20px; /* Space below each section */
+  flex: 1; /* Each section takes equal space */
+  min-width: 250px; /* Minimum width for each section */
+}
+
+.footer-contact h3,
+.footer-social h3 {
+  font-size: 20px; /* Font size for headings */
+  margin-bottom: 15px; /* Space below headings */
+}
+
+.footer-contact p,
+.footer-social a {
+  font-size: 16px; /* Font size for contact details */
+  color: #fff; /* White text color */
+  text-decoration: none; /* No underline for links */
+  margin: 5px 0; /* Margin for contact details */
+}
+
+.footer-social a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.footer-credit {
+  margin-top: 20px; /* Space above the copyright text */
+  font-size: 14px; /* Smaller font size for copyright text */
+  color: #bbb; /* Lighter text color for copyright */
+}
